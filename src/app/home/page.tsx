@@ -1,8 +1,6 @@
 
 
 
-import { revalidateTag } from "next/cache";
-import { addProduct } from "../actions";
 import { Form } from "@/components/Form";
 
 interface IProduct {
