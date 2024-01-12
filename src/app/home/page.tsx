@@ -26,10 +26,9 @@ const Home = async () => {
     <main className="">
       <h1 className="text-3xl font-bold text-center">Products</h1>
 
+      <Form />
 
       <h2 className="text-2xl font-bold text-center">List of Products</h2>
-
-      <Form />
 
       <div className="p-10 flex flex-wrap gap-5">
         {products.map((product) => (
