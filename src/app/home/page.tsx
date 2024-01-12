@@ -1,6 +1,3 @@
-
-
-
 import { Form } from "@/components/Form";
 
 interface IProduct {
@@ -10,8 +7,6 @@ interface IProduct {
 }
 
 const Home = async () => {
-  
-
   const res = await fetch("https://65a139a5600f49256fb134b2.mockapi.io/new_products", {
     method: "GET",
     cache: "no-cache", // DISABLING CACHE FOR THE PURPOSE OF THIS DEMO ONLY
